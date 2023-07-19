@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+	font-family: Luminari, fantasy;
+	font-size: 175%;
+}
+
+.row {
+	width: 100%;
+}
+
+.box {	
+	position: relative;
+	height: 100%;
+	margin: 0px 15px 0px 15px;
+	border: solid black 1px;
+	background-color: #a6aba8;
+}
+
+.content {
+	top: 50px;
+	width: 100%;
+	border: none;
+	margin: 35px 0px 0px 0px;
+	padding: 15px;
+	font-family: URW Chancery L, cursive;
+}
+
+.title {
+	position: absolute;
+	top: -21px;
+	right: -1px;
+	border: solid black 1px;
+	padding: 5px;
+	font-size: 125%;
+	font-family: Apple Chancery, cursive;
+	color: white;
+}
+
+/* Large screen */
+
+@media (min-width: 992px) {
+	.col-lg {
+		float: left;
+		width: 33.333%;
+		height: 250px;
+	}
+	h1 {
+		margin-top: 75px;
+		margin-bottom: 75px;
+	}
+}
+
+/* Medium Screen */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6, .col-md-12 {
+		float: left;
+		height: 225px;
+		margin-bottom: 30px;
+	}
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+}
+
+/* Small Screen */
+
+@media (max-width: 767px) {
+	.col-sm {
+		float: left;
+		width: 100%;
+		height: 260px;
+		margin-bottom: 30px;
+	}
+}
+
+/* For chicken, beef, sushi */
+
+#chicken {
+	background-color: #329ea8;
+}
+
+#beef {
+	background-color: #1ebd98;
+}
+
+#sushi {
+	background-color: #218044;
+}
