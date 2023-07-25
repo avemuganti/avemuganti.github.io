@@ -1,0 +1,63 @@
+
+#navlist {
+	color: white;
+	width: 100%
+}
+
+#navigation-main {
+	background-color: #4edec3;
+	font-family: Times, Times New Roman, serif;
+}
+
+.navbar-brand {
+	color: black;
+	font-size: 30px;
+}
+
+#collapsable-nav {
+	margin: 0;
+	width: 100vw;
+	background-color: lightblue;
+}
+
+h1, h2 {
+	margin: 0;
+	margin-bottom: 15px;
+	font-family: Apple Chancery, cursive;
+}
+
+
+#chicken-container, #beef-container, #sushi-container {
+	background-color: lightgrey;
+	width: 75vw;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.gap {
+height: 30px;
+}
+
+@media (min-width: 768px) {
+	#collapsable-nav {
+		margin: 0;
+		width: 100vw;
+		background-color: #4edec3;
+	}
+	#navbar-brand {
+		margin: 1
+		padding-left: 15px;
+	}
+
+	#chicken-container, #beef-container, #sushi-container {
+		background-color: lightgrey;
+		width: 90vw;
+		padding-top: 10px;
+	}
+}
+
+@media (max-width: 767px) {
+	nav .container-fluid {
+		padding: 0;
+	}
+}
